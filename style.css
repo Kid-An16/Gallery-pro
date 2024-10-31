@@ -1,0 +1,44 @@
+body {
+    font-size: 50px;
+    color: black;
+}
+
+#left
+{
+  position:relative ;
+  left: 0%;
+  width: 50%;
+  height: 2145px;
+  text-align: bottom;
+}
+
+#right
+{
+  position: relative ;
+  width: 50%;
+  height: 2145px;
+  text-align:bottom;
+}
+
+#all 
+{
+  position: relative;
+}
+
+#image_container
+{
+  position: relative;
+}
+
+#screen_container
+{
+  display: flex;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+img
+{
+  width: 100%;
+}
